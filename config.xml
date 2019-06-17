@@ -42,7 +42,10 @@
         <splash src="www/res/screen/ios/Default@3x~iphone~comany.png" />
         <splash src="www/res/screen/ios/Default@2x~ipad~anyany.png" />
         <splash src="www/res/screen/ios/Default@2x~ipad~comany.png" />
+        
+        <resource-file src="GoogleService-Info.plist" />
     </platform>
+    
     <platform name="android">
         <preference name="SplashMaintainAspectRatio" value="true" />
         <preference name="SplashShowOnlyFirstTime" value="true" />
@@ -58,6 +61,8 @@
         <splash density="port-xhdpi" src="www/res/screen/android/splash-port-xhdpi.png" />
         <splash density="port-xxhdpi" src="www/res/screen/android/splash-port-xxhdpi.png" />
         <splash density="port-xxxhdpi" src="www/res/screen/android/splash-port-xxxhdpi.png" />
+        
+        <resource-file src="google-services.json" target="app/google-services.json" />
     </platform>
     <platform name="windows">
         <icon src="www/res/icon/windows/storelogo.png" target="StoreLogo" />
